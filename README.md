@@ -1,1 +1,1 @@
-click to go website:https://ismailalishah2007.github.io/STUDYTIME1/
+click to go website:https://ismailalishah2007.github.io/STUDYTIME2/
