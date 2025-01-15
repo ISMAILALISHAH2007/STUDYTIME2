@@ -3,123 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STUDYTIME2</title>
-    <link rel="stylesheet"  type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <title>STUDYTIME1</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     
     <style>
-.id{
-    position: absolute;
-    width: 110px;
-    padding-top:50px;
-    text-align: center;
-    color: #999da3;
-}      
-span{
-    position: absolute;
-    color: #999da3;
-    width: 600px;
-    text-align: center;
-    padding-top:20px; 
-}
+        body {
+            background-color: rgb(28, 27, 27);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            margin: 0;
+        }
+        .contact-info {
+            text-align: center;
+            color: #999da3;
+            margin-top: 10px;
+        }
+        input, textarea {
+            background-color: rgb(28, 27, 27);
+            border: 1px solid white;
+            color: white;
+            width: 90%;
+            max-width: 600px;
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+        }
+        .container {
+            text-align: center;
+        }
+        textarea {
+            resize: none;
+        }
+        .my-button {
+            background-color: rgb(229, 62, 62);
+            width: 90%;
+            max-width: 600px;
+            padding: 13px;
+            margin: 20px auto;
+            border: 1px solid rgb(0, 0, 0);
+            color: #ffffff;
+            display: block;
+            text-align: center;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px auto;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #999da3;
+            font-size: 1.5em;
+        }
+        hr {
+            width: 90px;
+            margin: 20px auto;
+            border: 1px solid #999da3;
+        }
 
-body{
-    background-color: rgb(28, 27, 27);
-}
-h2{
-     font-family:'Roboto',sans-serif;
-    color: white;
-    width: 540px;
-    text-align: center;
-    padding-top: 70px;
-   
-}
-textarea{
-    padding-right: 276px;
-    background-color: rgb(28, 27, 27);
-    border: 1px solid white;
-    margin-left: 656px;
-    color: white;
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 1.5rem;
+            }
+            input, textarea, .my-button {
+                width: 95%;
+            }
+        }
 
-}
-input{
-    background-color: rgb(28, 27, 27);
-    border: 1px solid white;
-    margin-left: 656px;
-    color: white;
-    padding: 10px;
-    padding-right: 270px;
-}
-.container{
-    position:absolute;
-    bottom: 183px;
-  
-    
-}    
-.my-button{
-  background-color: rgb(229, 62, 62);
-   width:36%;
-   padding: 13px; 
-   margin-top: 160px;
-   border: 1px solid rgb(0, 0, 0);
-   margin-left: 655px;
-  color: #ffffff;
-
-}
-.wrapper{
-    display: inline-flex;
-    position: absolute;
-}
-.facebook{
-    top: 530px;
-    right: 720px;
-    position: absolute;
-}
-.twitter{
-    top: 530px;
-    position: absolute;
-    right: 675px;
-}
-.instagram{
-    top: 530px;
-    position: absolute;
-    right: 635px;
-}
-hr{
-    position: absolute;
-    width: 100px;
-    right: 637px;
-    top: 510px;
-}
-
+        @media (max-width: 480px) {
+            h2 {
+                font-size: 1.2rem;
+            }
+            input, textarea, .my-button {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
-   
     <h2><b>CONTACT ME</b></h2>
-    <span>03220294616</span>
-    <div class="id">
-        <span>ismailalishah2007@gmail.com</span>
+    <div class="contact-info">
+        <p>Phone: 03220294616</p>
+        <p>Email: ismailalishah2007@gmail.com</p>
     </div>
-     <input type="text" placeholder="Your Name" name="name" class="form-control"><br><br>
-     <input type="email" placeholder="Your Email" name="email" class="form-control">
+    <input type="text" placeholder="Your Name" name="name" class="form-control">
+    <input type="email" placeholder="Your Email" name="email" class="form-control">
     <div class="container">
-    <p>Description</p>
-    <textarea rows="6" placeholder="Your Message"></textarea>
+        <p>Description</p>
+        <textarea rows="6" placeholder="Your Message"></textarea>
     </div>
     <button class="my-button">SEND ME</button>
-    <div class="facebook">
-         <a href="http://www.facebook.com"target="_blank"><i class="fa-brands fa-facebook fa-lg" style="color: #999da3;"></i></a>
+    <div class="social-icons">
+        <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     </div>
-    <div class="twitter">
-        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-lg" style="color: #999da3;"></i></a>
-    </div>
-    <div class="instagram">
-        <a href="http://www.instagram.com"target="_blank"><i class="fa-brands fa-instagram fa-lg" style="color: #999da3;"></i></a>
-   </div>
-  
-   <hr>
-</body> 
+    <hr>
+</body>
 </html>
-
-
-
